@@ -26,6 +26,14 @@ cd stock-service
 mvn quarkus:dev
 ```
 
+Alternatively you can use workflow based stock service so instead of `stock-service` use
+`workflow-stock-service` module.
+Then, run the `workflow-stock-service`:
+```shell
+cd workfow-stock-service
+mvn clean quarkus:dev
+```
+
 Observe the logs. \
 You can access Quarkus Dev UI console: `http://localhost:8080/q/dev`. \
 You can also call some REST endpoints with analytical data:
